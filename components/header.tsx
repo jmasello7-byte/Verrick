@@ -42,7 +42,7 @@ export function Header() {
         </nav>
 
         <div className="hidden md:block">
-          <CtaLink className="px-4 py-2.5 text-sm" />
+          <CtaLink size="sm" />
         </div>
 
         <button

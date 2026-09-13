@@ -177,7 +177,7 @@ export default function HomePage() {
             and, if it is a fit, book a discovery call.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
-            <CtaLink className="bg-white text-ink hover:bg-accent-soft" />
+            <CtaLink variant="inverse" />
             <a
               href={site.mailto}
               className="text-sm font-medium text-white/80 underline-offset-4 hover:text-white hover:underline"
